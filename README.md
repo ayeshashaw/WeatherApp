@@ -1,14 +1,14 @@
 # Real-time Weather Application
 
-This real-time weather application is built using HTML, CSS, and JavaScript. It allows users to search for a city, view current weather conditions, see a city map, and access a 5-day weather forecast.
+This real-time weather application is built using HTML, CSS, and JavaScript. It allows users to search for a city, view current weather conditions, access a city map, and see a 5-day weather forecast.
 
 ## Features
 
 - 🌆 **City Search**: Search for weather information by city name.
-- 🌡️ **Current Weather Display**: Shows temperature, weather description, humidity, wind speed, and an icon representing the current weather conditions.
+- 🌡️ **Current Weather Display**: View temperature, weather description, humidity, wind speed, and an icon representing the current weather conditions.
 - 🗺️ **Interactive Map**: Displays the searched city on a Google Map.
 - 📅 **5-Day Forecast**: Navigate to a separate page for a detailed 5-day weather forecast.
-- 📱 **Responsive UI**: Designed to function well on various screen sizes.
+- 📱 **Responsive User Interface**: Designed to function well on various screen sizes.
 - ⚡ **Debouncing and Throttling**: Optimizes search input and button clicks for better performance.
 
 ## Screenshots
@@ -26,7 +26,7 @@ This real-time weather application is built using HTML, CSS, and JavaScript. It 
 
 ## Setup and Installation
 
-1. **Clone the repository (or download the files)**:
+1. **Clone the Repository (or Download the Files)**:
     ```bash
     git clone <repository_url>
     cd WeatherApp
@@ -56,19 +56,19 @@ This real-time weather application is built using HTML, CSS, and JavaScript. It 
     ```
 
 4. **Open the Application**:
-   Simply open the `index.html` file in your web browser. You can do this by double-clicking the file or by using a local web server.
+   Simply open the `index.html` file in your web browser. You can do this by double-clicking the file or using a local web server.
 
 ## Usage
 
 1. 📝 Enter a city name in the search bar on the main page.
 2. 🔍 Click the "Search" button or press Enter.
 3. 🌍 View the current weather information and the city’s location on the map.
-4. 📈 Click the "5-Day Forecast" button to see the detailed forecast for the searched city.
+4. 📈 Click the "5-Day Forecast" button to see a detailed forecast for the searched city.
 5. 🔙 Use the "Back to Main" button on the forecast page to return to the main weather display.
-
 
 ## Project Structure
 
+```
 WeatherApp/
 ├── index.html          # Main page for current weather and map
 ├── style.css           # General styling for index.html
@@ -78,15 +78,12 @@ WeatherApp/
 └── forecast.js         # JavaScript for forecast.html (forecast fetching, display)
 ├── image1.png          # Screenshot of the application
 └── image2.png          # Another screenshot of the application
-
 ```
 
-## Contributing
+## Contributing
 
-Feel free to fork the 
-repository, make 
-improvements, and submit pull 
-requests.
+Feel free to fork the repository, make improvements, and submit pull requests.
 
+## License
 
-```
+This project is open-source and available under the MIT License.

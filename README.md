@@ -66,6 +66,27 @@ This real-time weather application is built using HTML, CSS, and JavaScript. It 
 4. 📈 Click the "5-Day Forecast" button to see the detailed forecast for the searched city.
 5. 🔙 Use the "Back to Main" button on the forecast page to return to the main weather display.
 
+
 ## Project Structure
 
-Please create a file named `README.md` in your project's root directory (d:\Projects\WeatherApp\) and paste the content provided above into it.
+WeatherApp/
+├── index.html          # Main page for current weather and map
+├── style.css           # General styling for index.html
+├── script.js           # JavaScript for index.html (weather fetching, map, debounce/throttle)
+├── forecast.html       # Page for 5-day weather forecast
+├── forecast.css        # Styling for forecast.html
+└── forecast.js         # JavaScript for forecast.html (forecast fetching, display)
+├── image1.png          # Screenshot of the application
+└── image2.png          # Another screenshot of the application
+
+```
+
+## Contributing
+
+Feel free to fork the 
+repository, make 
+improvements, and submit pull 
+requests.
+
+
+```
